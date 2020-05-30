@@ -11,7 +11,6 @@ sexo = str(input('Digite seu sexo: ')).strip().upper()
 nascimento = int(input('Ano de nascimento: '))
 hoje = date.today().year
 idade = hoje - nascimento
-sp_a = 'ano'
 
 if idade >= 1:
     if idade == 1:
